@@ -37,7 +37,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["Besoin d'aide ? Je suis là ! 🆘", "Pose-moi toutes tes questions 💬", "Support technique 🧑‍💻", "Analyse des statistiques en cours 📊"];
+const statusMessages = ["Besoin d'aide ? Je suis là ! 🆘", "", "Support technique 🤖"];
 const statusTypes = [ 'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
