@@ -38,7 +38,7 @@ app.listen(port, () => {
 });
 
 const statusMessages = ["Besoin d'aide ? Je suis là ! 🆘", "Support technique 🧑‍💻"];
-const statusTypes = [ 'dnd', 'dnd'];
+const statusTypes = [ 'online', 'online'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
